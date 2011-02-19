@@ -11,7 +11,8 @@
                  [org.clojure/clojure "1.2.0"]
                  [org.clojure/clojure-contrib "1.2.0"]
                  [ring/ring-servlet "0.3.6"]]
-  :dev-dependencies [[autodoc "0.7.1-SNAPSHOT"]
+  :dev-dependencies [[autodoc "0.7.1"  :exclusions [org.clojure/clojure
+						   org.clojure/clojure-contrib]]
                      [lein-clojars "0.5.0"]
                      [com.google.appengine/appengine-api-labs "1.4.2"]
                      [com.google.appengine/appengine-api-stubs "1.4.2"]
