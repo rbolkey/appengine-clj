@@ -12,13 +12,15 @@
                  [org.clojure/clojure-contrib "1.2.0"]
                  [ring/ring-servlet "0.3.6"]]
   :dev-dependencies [[autodoc "0.7.1"  :exclusions [org.clojure/clojure
-						   org.clojure/clojure-contrib]]
+						   org.clojure/clojure-contrib
+                                                   ant/ant
+                                                   ant/ant-launcher]]
                      [lein-clojars "0.5.0"]
-                     [com.google.appengine/appengine-api-labs "1.4.2"]
-                     [com.google.appengine/appengine-api-stubs "1.4.2"]
-                     [com.google.appengine/appengine-local-runtime "1.4.2"]
-                     [com.google.appengine/appengine-local-runtime-shared "1.4.2"]
-                     [com.google.appengine/appengine-testing "1.4.2"]
+                     [com.google.appengine/appengine-api-labs "1.4.3"]
+                     [com.google.appengine/appengine-api-stubs "1.4.3"]
+                     [com.google.appengine/appengine-local-runtime "1.4.3"]
+                     [com.google.appengine/appengine-local-runtime-shared "1.4.3"]
+                     [com.google.appengine/appengine-testing "1.4.3"]
                      [ring/ring-jetty-adapter "0.3.6"]
                      [swank-clojure "1.2.1"]]
   :repositories {"maven-gae-plugin" "http://maven-gae-plugin.googlecode.com/svn/repository"})
